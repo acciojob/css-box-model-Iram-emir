@@ -5,7 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Box Model Demo</title>
 <style>
-
+  .box {
+    width: 300px; /* Adjusted width */
+    background-color: lightblue;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+    box-sizing: border-box; /* This makes sure padding and border are included in width */
+  }
 </style>
 </head>
 <body>
